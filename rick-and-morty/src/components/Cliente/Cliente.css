@@ -1,0 +1,40 @@
+
+
+.cliente-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f0f4f8; /* Color suave para el fondo */
+  }
+  
+  .cliente-content {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    width: 80%; /* Ajusta el ancho */
+    max-width: 600px; /* Limita el ancho máximo */
+  }
+  
+  .cliente-title {
+    color: #4caf50; /* Un verde suave para el título */
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .cliente-description {
+    color: #555; /* Texto gris suave */
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cliente-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de la imagen */
+  }
+  

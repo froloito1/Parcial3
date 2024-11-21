@@ -1,0 +1,45 @@
+/* Titulo.css */
+
+/* Estilos generales para el contenedor header */
+header {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para el título principal */
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1.5px;
+    color: #ff9f00;  /* Naranja brillante */
+  }
+  
+  /* Estilo para el subtítulo */
+  h2 {
+    font-size: 1.5rem;
+    font-family: 'Verdana', sans-serif;
+    margin-top: 10px;
+    color: #c7c7c7;  /* Gris claro */
+    font-weight: normal;
+  }
+  
+  /* Estilo responsivo */
+  @media (max-width: 600px) {
+    header {
+      padding: 30px 15px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+  

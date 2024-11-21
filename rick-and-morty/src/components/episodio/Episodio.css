@@ -1,0 +1,30 @@
+.episodio {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .episodio h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .episodio p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .episodio a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .episodio a:hover {
+    text-decoration: underline;
+  }
+  

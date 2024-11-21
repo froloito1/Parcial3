@@ -1,0 +1,31 @@
+.episodio {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.tabla-detalles {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.tabla-detalles th, .tabla-detalles td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.tabla-detalles th {
+  background-color: #f4f4f4;
+}
+
+.tabla-detalles td a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.tabla-detalles td a:hover {
+  text-decoration: underline;
+}

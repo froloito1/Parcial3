@@ -1,0 +1,59 @@
+
+
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f4f7fa; /* Color suave de fondo */
+  }
+  
+  .admin-content {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 80%; /* Ajusta el ancho */
+    max-width: 700px; /* Limita el ancho máximo */
+    text-align: center;
+  }
+  
+  .admin-title {
+    color: #2c3e50; /* Color oscuro para el título */
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .admin-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .admin-button {
+    background-color: #3498db; /* Azul brillante para los botones */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .admin-button:hover {
+    background-color: #2980b9; /* Azul más oscuro en hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+  }
+  
+  .admin-button:active {
+    transform: translateY(1px); /* Efecto de presión al hacer clic */
+  }
+  
+  .admin-text {
+    color: #7f8c8d; /* Texto gris suave */
+    font-size: 16px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  

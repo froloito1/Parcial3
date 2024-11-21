@@ -1,0 +1,17 @@
+.episodios {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .episodios h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
